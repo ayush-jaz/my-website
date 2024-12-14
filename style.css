@@ -28,7 +28,7 @@ header h1 {
     overflow: hidden; /* Hide text initially for typewriter effect */
     border-right: 3px solid white; /* Cursor effect */
     width: fit-content;
-    animation: typing 2.5s steps(20, end), blink 0.7s step-end infinite;
+    animation: typing 2.5s steps(15, end);
 }
 
 /* Typewriter Effect */
