@@ -1,21 +1,10 @@
 console.log("Welcome to Ayush's website!");
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Typewriter Effect
-    const typewriterText = "Hi, I'm Ayush!";
-    const typewriterElement = document.getElementById('typewriter');
-    
-    let index = 0;
-
-    const type = () => {
-        if (index < typewriterText.length) {
-            typewriterElement.textContent += typewriterText.charAt(index);
-            index++;
-            setTimeout(type, 150); // Adjust typing speed (ms per character)
-        }
-    };
-
-    type();
+    // Removed typewriter effect, header is now simple text
+    const headerText = "Hi, I'm Ayush!";
+    const headerElement = document.getElementById('typewriter');
+    headerElement.textContent = headerText; // Directly set the text content
 
     // Smooth scrolling and section highlighting
     const fadeInElements = document.querySelectorAll('.fade-in');
