@@ -1,99 +1,36 @@
-/* General Styles */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
+    background-color: #f4f4f9;
     color: #333;
-    background-color: #f9f9f9;
-    line-height: 1.6;
 }
 
-a {
-    color: #0078ff;
-    text-decoration: none;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-/* Container */
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 1.5rem 0;
-}
-
-/* Header Section */
-.header {
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 2rem 0;
+header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-.header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+header h1 {
+    margin: 0;
 }
 
-.profile-photo img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+main {
+    padding: 20px;
 }
 
-.contact-info h1 {
-    margin-bottom: 0.5rem;
+section {
+    margin-bottom: 20px;
 }
 
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* About Section */
-.about {
-    background-color: #fff;
-    margin-top: 1rem;
-    padding: 2rem 0;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/* Projects Section */
-.projects {
-    margin: 2rem 0;
-    background-color: #fff;
-    padding: 2rem 0;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.project-item {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    border-bottom: 1px solid #ddd;
-}
-
-.project-item h3 {
-    color: #0078ff;
-    margin-bottom: 0.5rem;
-}
-
-/* Footer */
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
