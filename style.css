@@ -149,7 +149,7 @@ h2.highlight {
 
 /* Footer Styles */
 footer {
-    background-color: #ffffff;
+    background-color: transparent;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
