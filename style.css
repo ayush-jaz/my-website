@@ -94,23 +94,23 @@ h2.highlight {
     position: relative;
     margin: 30px 0;
     padding-left: 40px;
-    border-left: 3px solid #6c63ff;
+    border-left: 3px solid #000000;
 }
 
 .timeline-item {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .timeline-dot {
     position: absolute;
     left: -9px;
     top: 5px;
-    width: 20px;
-    height: 20px;
-    background-color: #6c63ff;
+    width: 10px;
+    height: 10px;
+    background-color: #ffd700;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 3px solid #000000;
     z-index: 10;
 }
 
@@ -132,7 +132,7 @@ h2.highlight {
 
 .timeline-content h3 {
     margin: 0;
-    color: #6c63ff;
+    color: #000000;
 }
 
 /* Fade-in Animation */
@@ -164,10 +164,10 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #6c63ff;
+    background: #ffd700;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4b47c1;
+    background: #cdae00;
 }
