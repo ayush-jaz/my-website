@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (index < typewriterText.length) {
             typewriterElement.textContent += typewriterText.charAt(index);
             index++;
-            setTimeout(type, 150);
+            setTimeout(type, 150); // Adjust typing speed (ms per character)
         }
     };
 
