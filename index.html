@@ -3,30 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Ayush's Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Personal website of Ayush, a Chemical Engineering student at IIT Bombay.">
+    <title>Ayush Jaiswal | Chemical Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm Ayush!</h1>
-        <p>Welcome to my personal website.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ayush Jaiswal</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Ayush Jaiswal</span></h1>
+                <p>Chemical Engineering student at IIT Bombay, passionate about innovation, sustainability, and technology.</p>
+                <a href="#projects" class="btn">Explore My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="your-profile-photo.jpg" alt="Ayush Jaiswal">
+            </div>
+        </div>
     </header>
-    <main>
-        <section id="about">
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
             <h2>About Me</h2>
-            <p>I'm a student at IIT Bombay majoring in Chemical Engineering. I love stargazing, photography, and cricket!</p>
-        </section>
-        <section id="contact">
+            <p>I explore cutting-edge research in sustainability and technology. I’m also a nature lover, photographer, and cricket enthusiast.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Sustainable Packaging Solutions</h3>
+                <p>Innovating eco-friendly packaging for the food service industry.</p>
+            </div>
+            <div class="project-card">
+                <h3>Energy Sustainability</h3>
+                <p>Exploring energy-efficient systems to reduce carbon footprints.</p>
+            </div>
+            <div class="project-card">
+                <h3>Web Automation</h3>
+                <p>Built a Python-based scraper for analyzing 2.6M e-commerce products.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
             <h2>Contact Me</h2>
-            <p>Email: ayush@example.com</p>
-            <p>Follow me on <a href="https://github.com/yourusername" target="_blank">GitHub</a>.</p>
-        </section>
-    </main>
+            <p>Let’s collaborate or just say hello! Reach me through:</p>
+            <div class="contact-icons">
+                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/ayush-jaz"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ayush-jaz"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/ayush_jaz"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2024 Ayush. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Ayush Jaiswal. All rights reserved.</p>
+        </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
+
 
 
